@@ -1,0 +1,57 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1610051610,
+        "narHash": "sha256-U9rPz/usA1/Aohhk7Cmc2gBrEEKRzcW4nwPWMPwja4Y=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "3982c9903e93927c2164caa727cd3f6a0e6d14cc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1612229122,
+        "narHash": "sha256-JHAtsYlEo6mqBD5gAAARNY3GIWNVV/LnhxiTc7C/Cj0=",
+        "path": "/nix/store/yhkhc3d65vl943aywpylnsyj0d5wnmv8-source",
+        "rev": "abe7f45882090f7150d0289b1e381d0620f4a545",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nyan": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1609260573,
+        "narHash": "sha256-u6FiBVKcQKQe+D4W+VqBdqv6Wrm2pE9yFCAcWSE5qMs=",
+        "owner": "SFTtech",
+        "repo": "nyan",
+        "rev": "a899eb277aadb33da74e8b190057be396c502e7f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "SFTtech",
+        "repo": "nyan",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "nyan": "nyan"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
